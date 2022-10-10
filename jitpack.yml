@@ -1,4 +1,4 @@
 
 install:
 - FILE="-Dfile=open_sdk_3.5.11.6_r13b47b7_lite.aar"
-- mvn install:install-file $FILE -DgroupId=com.tencent.opensdk -DartifactId=lite -Dversion=3.5.11 -Dpackaging=aar -DgeneratePom=true
+- mvn install:install-file $FILE -DgroupId=com.tencent.opensdk -DartifactId=lite -Dversion=3.5.11 -Dpackaging=jar -DgeneratePom=true
